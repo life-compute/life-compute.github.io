@@ -189,12 +189,24 @@
   <h2>3 steps.<br><span class="accent-green">Under 5 minutes.</span></h2>
   <p>If you can play modern games, you can mine $LIFE. Minimum: NVIDIA GPU with 8GB+ VRAM, 16GB RAM, Ubuntu 20.04+ or Windows 10/11.</p>
   <div class="setup-steps">
-    <div class="setup-step"><div class="setup-num">1</div><div class="setup-body"><div class="setup-title">Download</div><div class="code-block">curl -sSL https://raw.githubusercontent.com/life-compute/miner/main/install.sh | bash</div></div></div>
+    <div class="setup-step"><div class="setup-num">1</div><div class="setup-body"><div class="setup-title">Download</div>
+      <p style="color:rgba(0,255,65,0.7);font-size:0.8rem;margin-bottom:0.75rem;">Choose your platform:</p>
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:1rem;">
+        <a href="https://github.com/life-compute/miner/releases/download/gui-v1.0.0/LIFE.Compute.Miner_1.0.0_x64-setup.exe" class="btn btn-primary" style="font-size:0.72rem;padding:0.5rem 1.1rem;" download>&#x2193; Windows .exe</a>
+        <a href="https://github.com/life-compute/miner/releases/download/gui-v1.0.0/LIFE.Compute.Miner_1.0.0_x64_en-US.msi" class="btn btn-primary" style="font-size:0.72rem;padding:0.5rem 1.1rem;" download>&#x2193; Windows .msi</a>
+        <a href="https://github.com/life-compute/miner/releases/download/gui-v1.0.0/LIFE.Compute.Miner_1.0.0_amd64.AppImage" class="btn btn-secondary" style="font-size:0.72rem;padding:0.5rem 1.1rem;" download>&#x2193; Linux AppImage</a>
+        <a href="https://github.com/life-compute/miner/releases/download/gui-v1.0.0/LIFE.Compute.Miner_1.0.0_amd64.deb" class="btn btn-secondary" style="font-size:0.72rem;padding:0.5rem 1.1rem;" download>&#x2193; Linux .deb</a>
+        <a href="https://github.com/life-compute/miner/releases/download/gui-v1.0.0/LIFE.Compute.Miner_1.0.0_universal.dmg" class="btn" style="font-size:0.72rem;padding:0.5rem 1.1rem;border-color:var(--cyan);color:var(--cyan);box-shadow:0 0 15px rgba(0,255,255,0.3);" download>&#x2193; macOS .dmg</a>
+        <a href="https://github.com/life-compute/miner/releases/download/v2.0.0/life-compute-hiveos.tar.gz" class="btn" style="font-size:0.72rem;padding:0.5rem 1.1rem;border-color:var(--purple);color:var(--purple);box-shadow:0 0 15px rgba(157,0,255,0.3);" download>&#x2193; HiveOS .tar.gz</a>
+      </div>
+      <p style="color:rgba(0,255,65,0.5);font-size:0.75rem;margin-bottom:0.4rem;">Or install via CLI:</p>
+      <div class="code-block">curl -sSL https://raw.githubusercontent.com/life-compute/miner/main/install.sh | bash</div>
+    </div></div>
     <div class="setup-step"><div class="setup-num">2</div><div class="setup-body"><div class="setup-title">Connect Your Solana Wallet</div><div class="code-block">~/.life-compute/bin/life-compute wallet connect</div></div></div>
     <div class="setup-step"><div class="setup-num">3</div><div class="setup-body"><div class="setup-title">Start Mining</div><div class="code-block">docker run -d --gpus all --name life-compute-miner -v ~/.life-compute:/root/.life-compute ghcr.io/life-compute/miner:latest</div></div></div>
   </div>
   <br><br>
-  <p style="color:rgba(0,255,65,0.5);font-size:0.8rem;">HiveOS miners: flight sheet URL &rarr; <span style="color:var(--cyan)">https://github.com/life-compute/miner/releases/latest/download/life-compute-hiveos.tar.gz</span></p>
+  <p style="color:rgba(0,255,65,0.5);font-size:0.8rem;">HiveOS miners: flight sheet URL &rarr; <span style="color:var(--cyan)">https://github.com/life-compute/miner/releases/download/v2.0.0/life-compute-hiveos.tar.gz</span></p>
 </section>
 <hr class="divider">
 <footer>
