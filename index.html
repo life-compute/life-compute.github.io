@@ -99,6 +99,7 @@
     <li><a href="#token">Token</a></li>
     <li><a href="#start">Get Started</a></li>
     <li><a href="#nfts">Discovery NFTs</a></li>
+    <li><a href="#donate" style="color:var(--pink);text-shadow:0 0 8px rgba(255,105,180,0.5);">Donate</a></li>
   </ul>
   <div style="display:flex;gap:1.1rem;align-items:center;">
     <a href="https://discord.gg/uJSkzqG5s" target="_blank" rel="noopener" aria-label="Discord"
@@ -297,6 +298,125 @@
 </section>
 
 <hr class="divider">
+
+<!-- ── Donate ──────────────────────────────────────────────────────────────── -->
+<section id="donate" style="padding:5rem 2rem;max-width:900px;margin:0 auto;">
+  <p class="section-label">// Support the Mission</p>
+  <h2 style="font-size:2.2rem;font-weight:700;letter-spacing:-0.02em;margin-bottom:0.5rem;">
+    Support the <span style="color:var(--green)">Mission</span>
+  </h2>
+  <p style="color:rgba(0,255,65,0.65);max-width:620px;margin:1rem 0 3rem;font-size:0.95rem;line-height:1.75;">
+    Every contribution funds cancer drug discovery, network development, and wet lab validation of top molecular hits.
+  </p>
+
+  <div style="display:grid;grid-template-columns:1fr auto;gap:2.5rem;align-items:start;">
+
+    <!-- Left: wallet + copy -->
+    <div>
+      <div style="border:1px solid rgba(0,255,65,0.3);background:rgba(0,255,65,0.04);padding:1.75rem;border-radius:4px;margin-bottom:1.5rem;">
+        <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:1rem;">
+          <svg width="22" height="22" viewBox="0 0 397.7 311.7" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;">
+            <defs>
+              <linearGradient id="solG" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#9945ff"/>
+                <stop offset="100%" style="stop-color:#14f195"/>
+              </linearGradient>
+            </defs>
+            <path fill="url(#solG)" d="M64.6 237.9c2.4-2.4 5.7-3.8 9.2-3.8h317.4c5.8 0 8.7 7 4.6 11.1l-62.7 62.7c-2.4 2.4-5.7 3.8-9.2 3.8H6.5c-5.8 0-8.7-7-4.6-11.1l62.7-62.7zm0-164.3c2.4-2.4 5.7-3.8 9.2-3.8h317.4c5.8 0 8.7 7 4.6 11.1l-62.7 62.7c-2.4 2.4-5.7 3.8-9.2 3.8H6.5c-5.8 0-8.7-7-4.6-11.1L64.6 73.6zm309.5 82.1c-2.4-2.4-5.7-3.8-9.2-3.8H47.5c-5.8 0-8.7 7-4.6 11.1l62.7 62.7c2.4 2.4 5.7 3.8 9.2 3.8h317.4c5.8 0 8.7-7 4.6-11.1l-62.7-62.7z"/>
+          </svg>
+          <span style="font-family:'Share Tech Mono',monospace;font-size:0.7rem;letter-spacing:0.2em;color:var(--green);text-transform:uppercase;">SOL &mdash; Solana Network</span>
+        </div>
+
+        <div style="font-family:'Share Tech Mono',monospace;font-size:0.82rem;color:var(--green);word-break:break-all;line-height:1.6;margin-bottom:1.25rem;text-shadow:0 0 8px rgba(0,255,65,0.35);" id="wallet-addr">2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb</div>
+
+        <button id="copy-btn" onclick="copyWallet()" style="display:inline-flex;align-items:center;gap:0.5rem;padding:0.6rem 1.4rem;font-family:'Space Mono',monospace;font-size:0.78rem;letter-spacing:0.1em;text-transform:uppercase;background:transparent;color:var(--green);border:1px solid rgba(0,255,65,0.4);cursor:pointer;transition:all 0.2s;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          <span id="copy-label">Copy Address</span>
+        </button>
+        <span id="copy-check" style="display:none;margin-left:0.75rem;color:var(--green);font-size:0.8rem;">&#10003; Copied!</span>
+      </div>
+
+      <div style="border-left:2px solid rgba(0,255,65,0.2);padding:0.6rem 1rem;margin-bottom:2rem;">
+        <p style="color:rgba(0,255,65,0.5);font-size:0.78rem;margin:0;line-height:1.6;">
+          Scan with <strong style="color:rgba(0,255,65,0.8);">Phantom</strong> or <strong style="color:rgba(0,255,65,0.8);">Solflare</strong> wallet &mdash; or paste the address above.
+        </p>
+      </div>
+
+      <!-- Impact blurbs -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+        <div style="border:1px solid rgba(0,255,65,0.12);padding:1rem 1.25rem;background:rgba(0,255,65,0.02);">
+          <div style="font-size:1.3rem;margin-bottom:0.4rem;">&#x1F9EC;</div>
+          <div style="font-size:0.7rem;letter-spacing:0.12em;color:var(--green);margin-bottom:0.3rem;text-transform:uppercase;">Drug Discovery</div>
+          <p style="font-size:0.75rem;color:rgba(0,255,65,0.5);margin:0;">Fund GPU compute for Boltz2 molecular docking against cancer targets.</p>
+        </div>
+        <div style="border:1px solid rgba(0,255,255,0.12);padding:1rem 1.25rem;background:rgba(0,255,255,0.02);">
+          <div style="font-size:1.3rem;margin-bottom:0.4rem;">&#x1F517;</div>
+          <div style="font-size:0.7rem;letter-spacing:0.12em;color:var(--cyan);margin-bottom:0.3rem;text-transform:uppercase;">Network Dev</div>
+          <p style="font-size:0.75rem;color:rgba(0,255,65,0.5);margin:0;">Expand validator infrastructure and on-chain data pipelines.</p>
+        </div>
+        <div style="border:1px solid rgba(255,105,180,0.12);padding:1rem 1.25rem;background:rgba(255,105,180,0.02);">
+          <div style="font-size:1.3rem;margin-bottom:0.4rem;">&#x1F9EA;</div>
+          <div style="font-size:0.7rem;letter-spacing:0.12em;color:var(--pink);margin-bottom:0.3rem;text-transform:uppercase;">Wet Lab</div>
+          <p style="font-size:0.75rem;color:rgba(0,255,65,0.5);margin:0;">Validate top computational hits in physical lab assays.</p>
+        </div>
+        <div style="border:1px solid rgba(157,0,255,0.12);padding:1rem 1.25rem;background:rgba(157,0,255,0.02);">
+          <div style="font-size:1.3rem;margin-bottom:0.4rem;">&#x1F30D;</div>
+          <div style="font-size:0.7rem;letter-spacing:0.12em;color:var(--purple);margin-bottom:0.3rem;text-transform:uppercase;">Open Science</div>
+          <p style="font-size:0.75rem;color:rgba(0,255,65,0.5);margin:0;">All findings published open-access. No IP claimed.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: QR code -->
+    <div style="display:flex;flex-direction:column;align-items:center;gap:1rem;min-width:180px;">
+      <div style="border:2px solid rgba(0,255,65,0.35);padding:10px;background:#fff;border-radius:4px;box-shadow:0 0 28px rgba(0,255,65,0.25);">
+        <img
+          src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb&bgcolor=ffffff&color=020805&margin=2"
+          alt="QR code — LIFE Compute foundation wallet"
+          width="180" height="180"
+          style="display:block;"
+          loading="lazy"
+        >
+      </div>
+      <p style="font-size:0.7rem;letter-spacing:0.12em;color:rgba(0,255,65,0.45);text-align:center;text-transform:uppercase;margin:0;">Scan to donate SOL</p>
+    </div>
+  </div>
+</section>
+
+<script>
+function copyWallet() {
+  var addr = '2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb';
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(addr).then(showCopied).catch(fallbackCopy.bind(null, addr));
+  } else {
+    fallbackCopy(addr);
+  }
+}
+function fallbackCopy(addr) {
+  var el = document.createElement('textarea');
+  el.value = addr; el.style.position = 'fixed'; el.style.opacity = '0';
+  document.body.appendChild(el); el.focus(); el.select();
+  try { document.execCommand('copy'); showCopied(); } catch(e) {}
+  document.body.removeChild(el);
+}
+function showCopied() {
+  var label = document.getElementById('copy-label');
+  var check = document.getElementById('copy-check');
+  var btn   = document.getElementById('copy-btn');
+  label.textContent = 'Copied!';
+  btn.style.borderColor = 'rgba(0,255,65,0.9)';
+  btn.style.boxShadow   = '0 0 14px rgba(0,255,65,0.45)';
+  check.style.display   = 'inline';
+  setTimeout(function() {
+    label.textContent     = 'Copy Address';
+    btn.style.borderColor = 'rgba(0,255,65,0.4)';
+    btn.style.boxShadow   = '';
+    check.style.display   = 'none';
+  }, 2400);
+}
+</script>
+
+<hr class="divider">
 <footer>
   <div class="footer-logo">&#127807; LIFE COM<span style="color:var(--pink)">PUTE</span> &#127807;</div>
   <p style="color:rgba(0,255,65,0.4);font-size:0.8rem;max-width:500px;margin:0.5rem auto;">Decentralized Cancer Drug Discovery Network</p>
@@ -308,6 +428,7 @@
     <a href="https://github.com/life-compute/core" target="_blank">Core</a>
     <a href="https://github.com/life-compute/targets" target="_blank">Targets</a>
     <a href="https://github.com/life-compute/miner/blob/main/WHITEPAPER.md" target="_blank">Whitepaper</a>
+    <a href="#donate" style="color:var(--pink);">Donate</a>
     <a href="mailto:lifecompute313@gmail.com">Contact</a>
   </div>
   <p class="footer-copy">&copy; 2026 LIFE Compute &middot; lifecompute.ai &middot; Zero pre-mine. Zero team allocation. Real science.</p>
