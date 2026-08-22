@@ -6,7 +6,7 @@
 <title>LIFE Compute &mdash; Decentralized Cancer Drug Discovery</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Share+Tech+Mono&display=swap');
-  :root{--green:#00ff41;--pink:#ff69b4;--cyan:#00ffff;--purple:#9d00ff;--dark:#020805;--dark2:#050f07;--dim-green:#00aa28;}
+  :root{--green:#00ff41;--pink:#ff69b4;--cyan:#00ffff;--purple:#9d00ff;--blue:#4d9fff;--dark:#020805;--dark2:#050f07;--dim-green:#00aa28;}
   *{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
   body{background:var(--dark);color:var(--green);font-family:'Space Mono','Courier New',monospace;overflow-x:hidden;}
   nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1rem 2rem;background:rgba(2,8,5,0.9);backdrop-filter:blur(10px);border-bottom:1px solid rgba(0,255,65,0.1);}
@@ -88,6 +88,15 @@
   @keyframes glow-pulse{0%,100%{text-shadow:0 0 10px rgba(0,255,65,0.4)}50%{text-shadow:0 0 25px rgba(0,255,65,0.9),0 0 50px rgba(0,255,65,0.4)}}
   .glow{animation:glow-pulse 3s ease-in-out infinite;}
   @media(max-width:600px){.nav-links{display:none}.hero-title{font-size:2rem}}
+  .accent-blue{color:var(--blue);}
+  .crispr-card{border:1px solid rgba(77,159,255,0.2);padding:1.5rem;background:rgba(77,159,255,0.03);border-radius:4px;transition:border-color 0.2s,box-shadow 0.2s;}
+  .crispr-card:hover{border-color:rgba(77,159,255,0.45);box-shadow:0 0 20px rgba(77,159,255,0.08);}
+  .crispr-score-icon{font-size:1.8rem;margin-bottom:0.6rem;}
+  .crispr-score-title{font-size:0.8rem;font-weight:700;color:var(--blue);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:0.4rem;}
+  .crispr-targets-row{display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:1.5rem;}
+  .crispr-gene-badge{padding:0.35rem 0.75rem;border:1px solid rgba(77,159,255,0.4);color:var(--blue);font-family:'Share Tech Mono',monospace;font-size:0.78rem;letter-spacing:0.1em;background:rgba(77,159,255,0.06);border-radius:2px;}
+  @keyframes blue-glow{0%,100%{text-shadow:0 0 10px rgba(77,159,255,0.4)}50%{text-shadow:0 0 25px rgba(77,159,255,0.9),0 0 50px rgba(77,159,255,0.4)}}
+  .blue-glow{animation:blue-glow 3s ease-in-out infinite;}
 </style>
 </head>
 <body>
@@ -99,6 +108,7 @@
     <li><a href="#targets">Targets</a></li>
     <li><a href="#token">Token</a></li>
     <li><a href="#start">Get Started</a></li>
+    <li><a href="#crispr" style="color:var(--blue);text-shadow:0 0 6px rgba(77,159,255,0.4);">CRISPR</a></li>
     <li><a href="#nfts">Discovery NFTs</a></li>
     <li><a href="#donate" style="color:var(--pink);text-shadow:0 0 8px rgba(255,105,180,0.5);">Donate</a></li>
   </ul>
@@ -276,6 +286,84 @@
   <p style="color:rgba(0,255,65,0.5);font-size:0.8rem;">HiveOS miners: flight sheet URL &rarr; <span style="color:var(--cyan)">https://github.com/life-compute/miner/releases/download/v2.0.0/life-compute-hiveos.tar.gz</span></p>
 </section>
 <hr class="divider">
+
+<!-- ── CRISPR gRNA Optimization ────────────────────────────────────────────── -->
+<section id="crispr" style="padding:5rem 2rem;max-width:900px;margin:0 auto;">
+  <p class="section-label">// CRISPR gRNA Optimizer</p>
+  <h2 style="font-size:clamp(1.6rem,3.5vw,2.6rem);margin-bottom:0.5rem;">
+    CRISPR Guide RNA<br><span class="accent-blue blue-glow">Optimization</span>
+  </h2>
+  <p style="color:var(--blue);font-family:'Share Tech Mono',monospace;font-size:0.95rem;letter-spacing:0.08em;margin-bottom:2rem;opacity:0.85;">
+    Drugging the undruggable.
+  </p>
+
+  <p style="max-width:680px;margin-bottom:1.25rem;">
+    LIFE Compute is the first decentralized network to optimize CRISPR guide RNA sequences for cancer gene editing alongside small molecule and mRNA drug discovery.
+  </p>
+  <p style="max-width:680px;margin-bottom:1.25rem;">
+    CRISPR-Cas9 won the 2020 Nobel Prize in Chemistry. It works by using a 20-nucleotide guide RNA to find and permanently disable cancer-driving genes. Finding the optimal guide RNA for each cancer target is one of the most computationally intensive challenges in modern oncology.
+  </p>
+  <p style="max-width:680px;margin-bottom:2.5rem;">
+    LIFE Compute miners now solve it &mdash; running three-score evaluation on every gRNA candidate:
+  </p>
+
+  <!-- Score cards -->
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1.25rem;margin-bottom:3rem;">
+    <div class="crispr-card">
+      <div class="crispr-score-icon">🎯</div>
+      <div class="crispr-score-title">On-Target Efficiency</div>
+      <p style="color:rgba(0,255,65,0.6);font-size:0.8rem;line-height:1.65;margin:0;">
+        Alignment to the mutation-site consensus window with PAM proximity scoring. High score = gRNA anchored precisely at the cancer hotspot.
+      </p>
+    </div>
+    <div class="crispr-card">
+      <div class="crispr-score-icon">🛡️</div>
+      <div class="crispr-score-title">Off-Target Risk</div>
+      <p style="color:rgba(0,255,65,0.6);font-size:0.8rem;line-height:1.65;margin:0;">
+        Seed sequence screened against curated repetitive-element blacklist (Alu, LINE-1, SINE-R, telomeric). Prevents dangerous off-target cuts in healthy tissue.
+      </p>
+    </div>
+    <div class="crispr-card">
+      <div class="crispr-score-icon">💉</div>
+      <div class="crispr-score-title">Delivery Compatibility</div>
+      <p style="color:rgba(0,255,65,0.6);font-size:0.8rem;line-height:1.65;margin:0;">
+        GC-content window and thermodynamic stem-loop scoring for lipid nanoparticle and AAV delivery. Ensures the guide survives the delivery vector.
+      </p>
+    </div>
+  </div>
+
+  <!-- Active targets -->
+  <p style="font-size:0.7rem;letter-spacing:0.25em;color:rgba(77,159,255,0.6);text-transform:uppercase;margin-bottom:0.75rem;">// 10 CRISPR Cancer Targets Active</p>
+  <div class="crispr-targets-row">
+    <span class="crispr-gene-badge">TP53</span>
+    <span class="crispr-gene-badge">KRAS</span>
+    <span class="crispr-gene-badge">BCL2</span>
+    <span class="crispr-gene-badge">MYC</span>
+    <span class="crispr-gene-badge">EGFR</span>
+    <span class="crispr-gene-badge">HER2</span>
+    <span class="crispr-gene-badge">BRCA1</span>
+    <span class="crispr-gene-badge">PDL1</span>
+    <span class="crispr-gene-badge">TERT</span>
+    <span class="crispr-gene-badge">CDK4</span>
+  </div>
+
+  <!-- Reward callout -->
+  <div style="margin-top:2.5rem;border:1px solid rgba(77,159,255,0.25);background:rgba(77,159,255,0.04);padding:1.5rem 1.75rem;border-radius:4px;display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;">
+    <div style="font-family:'Share Tech Mono',monospace;font-size:2rem;color:var(--blue);text-shadow:0 0 16px rgba(77,159,255,0.5);white-space:nowrap;">HARD TIER</div>
+    <div>
+      <div style="font-size:0.7rem;letter-spacing:0.2em;color:rgba(77,159,255,0.55);text-transform:uppercase;margin-bottom:0.3rem;">All 10 CRISPR targets</div>
+      <div style="font-family:'Share Tech Mono',monospace;font-size:1.4rem;color:var(--pink);">25 $LIFE</div>
+      <div style="font-size:0.75rem;color:rgba(0,255,65,0.5);margin-top:0.2rem;">per confirmed novel gRNA discovery</div>
+    </div>
+  </div>
+
+  <!-- NFT callout -->
+  <div style="margin-top:1.5rem;border-left:3px solid var(--blue);padding:1.25rem 1.5rem;background:rgba(77,159,255,0.04);border-radius:0 8px 8px 0;max-width:680px;">
+    <p style="color:rgba(255,255,255,0.85);font-size:0.9rem;line-height:1.75;margin:0;">
+      Top-scoring novel gRNA sequences are minted as <strong style="color:var(--blue);">Discovery NFTs</strong> &mdash; permanent on-chain proof of first computational discovery, available for licensing to CRISPR therapeutic developers.
+    </p>
+  </div>
+</section>
 
 <!-- ── Discovery NFTs ──────────────────────────────────────────────────────── -->
 <section id="nfts" style="padding:5rem 2rem;max-width:900px;margin:0 auto;">
