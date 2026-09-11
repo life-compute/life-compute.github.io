@@ -166,22 +166,38 @@
 <section id="token">
   <p class="section-label">// Tokenomics</p>
   <h2>The only token you earn<br><span class="accent-cyan">by doing real science.</span></h2>
-  <p>$LIFE cannot be purchased, pre-mined, or allocated. The only way to obtain $LIFE is to contribute genuine GPU compute to cancer drug discovery.</p>
+  <p>$LIFE cannot be pre-mined or allocated. The only way new $LIFE is ever created is by contributing genuine GPU compute to cancer drug discovery.</p>
+  <blockquote style="border-left:2px solid var(--green);padding-left:1.2rem;margin:1.6rem 0;font-size:0.95rem;line-height:1.7;color:rgba(0,255,65,0.85);">
+    There is no ceiling on $LIFE. There is only the work. Every token in existence is proof that a real computation happened &mdash; a real GPU, a real target, a real independently-verified result. Supply does not stop at a number. It stops when there is nothing left to discover.
+  </blockquote>
+  <p><strong>Total supply is a live figure, not a target.</strong> At every moment it is defined as total minted minus total burned. It rises only when real work is verified and mints new $LIFE through the program&rsquo;s official reward-payout path. There is no fixed cap and no halving schedule.</p>
+  <blockquote style="border-left:2px solid var(--cyan);padding-left:1.2rem;margin:1.6rem 0;font-size:0.95rem;line-height:1.7;color:rgba(0,229,255,0.85);">
+    $LIFE can only ever be created by real, verified work &mdash; running inference against real cancer targets, independently confirmed by a second machine. There is no other way for new $LIFE to come into existence. Once earned, it can be freely held or traded &mdash; but no one can ever buy their way into being the one who discovered it.
+  </blockquote>
+  <p style="font-size:0.88rem;color:rgba(255,255,255,0.6);">$LIFE is a standard SPL token: no transfer hook, no burn-on-transfer, no restriction on trading once earned. A miner who earned it may sell or trade it on any Solana DEX. The market redistributes already-earned tokens &mdash; it never creates new supply.</p>
   <div class="token-grid">
     <div class="token-card"><div class="token-card-title">Total Supply</div><div class="token-card-val">LIVE</div><p>Minted minus burned. No cap, no ceiling.</p></div>
     <div class="token-card pink"><div class="token-card-title">Pre-mine</div><div class="token-card-val">ZERO</div><p>Not one token before launch.</p></div>
     <div class="token-card cyan"><div class="token-card-title">Team Allocation</div><div class="token-card-val">ZERO</div><p>Founders mine like everyone else.</p></div>
     <div class="token-card purple"><div class="token-card-title">Blockchain</div><div class="token-card-val" style="color:var(--purple)">SOLANA</div><p>Fast finality. Sub-cent fees.</p></div>
+    <div class="token-card cyan"><div class="token-card-title">Halving Schedule</div><div class="token-card-val">NONE</div><p>Flat rewards. No time-based reduction.</p></div>
+    <div class="token-card pink"><div class="token-card-title">Emission Ends</div><div class="token-card-val">NEVER</div><p>It stops when there is nothing left to discover.</p></div>
   </div>
   <table class="rewards-table">
-    <thead><tr><th>Tier</th><th>Example Targets</th><th>Reward</th><th>Difficulty</th></tr></thead>
+    <thead><tr><th>Tier</th><th>Example Targets</th><th>Reward (flat)</th><th>Difficulty</th></tr></thead>
     <tbody>
       <tr><td>Hard</td><td>TP53, KRAS, BRCA1, MYC, IDH1</td><td><span class="reward-amt hard">0.9 $LIFE</span></td><td>Novel / poorly characterized</td></tr>
+      <tr><td>mRNA Silencing</td><td>MYC_mRNA, KRAS_mRNA, BCL2_mRNA</td><td><span class="reward-amt hard">0.9 $LIFE</span></td><td>mRNA silencing targets (IDs 2000&ndash;2029)</td></tr>
+      <tr><td>CRISPR gRNA</td><td>TP53_CRISPR, KRAS_CRISPR, EGFR_CRISPR</td><td><span class="reward-amt medium">0.252 $LIFE</span></td><td>gRNA knockout targets (IDs 3000&ndash;3009)</td></tr>
       <tr><td>Medium</td><td>EGFR, HER2, BCL2, PARP1, ABL1</td><td><span class="reward-amt medium">0.7 $LIFE</span></td><td>Partial structural data</td></tr>
       <tr><td>Easy</td><td>CDK4, VEGFR, NTRK1</td><td><span class="reward-amt easy">0.3 $LIFE</span></td><td>Well-characterized pocket</td></tr>
       <tr><td>Discovery Bonus</td><td>Top score for any target weekly</td><td><span class="reward-amt bonus">100 $LIFE</span></td><td>Best in network</td></tr>
     </tbody>
   </table>
+  <p style="font-size:0.78rem;color:rgba(0,255,65,0.5);margin-top:1rem;">Rewards are flat &mdash; they do not decrease over time or with cumulative supply. The one reduction that applies is a per-target maturity taper (100+ confirmed hits &rarr; 75%, 1,000+ &rarr; 50%), reflecting diminishing scientific return rather than token scarcity. Minimum reward: 1 raw unit.</p>
+  <blockquote style="border-left:2px solid var(--pink);padding-left:1.2rem;margin:1.8rem 0 0;font-size:0.95rem;line-height:1.7;color:rgba(255,64,129,0.85);">
+    This does not mean $LIFE cures disease. It means $LIFE only exists where real computational science &mdash; narrowing the search for what might &mdash; has genuinely happened.
+  </blockquote>
 </section>
 <hr class="divider">
 <section id="start">
