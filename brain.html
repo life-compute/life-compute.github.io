@@ -4,6 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>LIFE-BRAIN — The Network's Living Memory · LIFE COMPUTE</title>
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="256x256" href="assets/life-coin-256.png">
+  <link rel="apple-touch-icon" href="assets/life-coin-256.png">
+  <meta property="og:title" content="LIFE-BRAIN — The Network's Living Memory">
+  <meta property="og:description" content="Network-wide self-learning across every miner's confirmed on-chain submissions.">
+  <meta property="og:image" content="https://lifecompute.ai/assets/life-coin-og.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://lifecompute.ai/assets/life-coin-og.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <style>
@@ -37,8 +46,10 @@
       backdrop-filter: blur(10px);
       border-bottom: 1px solid rgba(0,255,65,0.1);
     }
-    .nav-logo { font-family: 'Share Tech Mono', monospace; font-size: 1rem; letter-spacing: 0.1em; }
+    .nav-logo { font-family: 'Share Tech Mono', monospace; font-size: 1rem; letter-spacing: 0.1em; display: flex; align-items: center; gap: 0.6rem; }
     .nav-logo .pute { color: var(--pink); }
+    .nav-coin { width: 30px; height: 30px; display: block; flex-shrink: 0; filter: drop-shadow(0 0 5px rgba(0,255,65,0.5)); transition: filter 0.3s, transform 0.3s; }
+    .nav-logo:hover .nav-coin { filter: drop-shadow(0 0 11px rgba(0,255,65,0.85)); transform: rotate(8deg); }
     .nav-links { display: flex; gap: 2rem; list-style: none; }
     .nav-links a {
       color: var(--dim-green); text-decoration: none;
@@ -219,7 +230,7 @@
 <body>
 
 <nav>
-  <div class="nav-logo">LIFE COM<span class="pute">PUTE</span></div>
+  <div class="nav-logo"><img class="nav-coin" src="assets/life-coin-128.png" alt="">LIFE COM<span class="pute">PUTE</span></div>
   <ul class="nav-links">
     <li><a href="index.html#mission">Mission</a></li>
     <li><a href="index.html#science">Science</a></li>

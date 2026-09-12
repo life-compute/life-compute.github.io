@@ -4,6 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Discovery NFT Gallery &mdash; LIFE Compute</title>
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="256x256" href="assets/life-coin-256.png">
+<link rel="apple-touch-icon" href="assets/life-coin-256.png">
+<meta property="og:title" content="Discovery NFT Gallery — LIFE Compute">
+<meta property="og:image" content="https://lifecompute.ai/assets/life-coin-og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://lifecompute.ai/assets/life-coin-og.png">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Share+Tech+Mono&display=swap');
   :root{--green:#00ff41;--pink:#ff69b4;--cyan:#00ffff;--purple:#9d00ff;--blue:#4d9fff;--dark:#020805;--dark2:#050f07;--dim-green:#00aa28;}
@@ -12,7 +19,9 @@
 
   /* ── NAV (identical to index.html) ── */
   nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1rem 2rem;background:rgba(2,8,5,0.9);backdrop-filter:blur(10px);border-bottom:1px solid rgba(0,255,65,0.1);}
-  .nav-logo{font-family:'Share Tech Mono',monospace;font-size:1rem;letter-spacing:0.1em;text-decoration:none;color:var(--green);}
+  .nav-logo{font-family:'Share Tech Mono',monospace;font-size:1rem;letter-spacing:0.1em;text-decoration:none;color:var(--green);display:flex;align-items:center;gap:0.6rem;}
+  .nav-coin{width:30px;height:30px;display:block;flex-shrink:0;filter:drop-shadow(0 0 5px rgba(0,255,65,0.5));transition:filter 0.3s,transform 0.3s;}
+  .nav-logo:hover .nav-coin{filter:drop-shadow(0 0 11px rgba(0,255,65,0.85));transform:rotate(8deg);}
   .nav-logo .pute{color:var(--pink);}
   .nav-links{display:flex;gap:2rem;list-style:none;}
   .nav-links a{color:var(--dim-green);text-decoration:none;font-size:0.75rem;letter-spacing:0.1em;text-transform:uppercase;transition:color 0.2s;}
@@ -142,7 +151,7 @@
 
 <!-- ═══════════ NAV ═══════════ -->
 <nav>
-  <a href="index.html" class="nav-logo">LIFE COM<span class="pute">PUTE</span></a>
+  <a href="index.html" class="nav-logo"><img class="nav-coin" src="assets/life-coin-128.png" alt="">LIFE COM<span class="pute">PUTE</span></a>
   <ul class="nav-links">
     <li><a href="index.html#mission">Mission</a></li>
     <li><a href="index.html#science">Science</a></li>
