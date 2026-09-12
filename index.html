@@ -20,13 +20,10 @@
   *{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
   body{background:var(--dark);color:var(--green);font-family:'Space Mono','Courier New',monospace;overflow-x:hidden;}
   nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1rem 2rem;background:rgba(2,8,5,0.9);backdrop-filter:blur(10px);border-bottom:1px solid rgba(0,255,65,0.1);}
-  .nav-logo{font-family:'Share Tech Mono',monospace;font-size:1rem;letter-spacing:0.1em;display:flex;align-items:center;gap:0.6rem;}
+  .nav-logo{font-family:'Share Tech Mono',monospace;font-size:1rem;letter-spacing:0.1em;}
   .nav-logo .pute{color:var(--pink);}
-  .nav-coin{width:30px;height:30px;display:block;flex-shrink:0;filter:drop-shadow(0 0 5px rgba(0,255,65,0.5));transition:filter 0.3s,transform 0.3s;}
+  .nav-coin{width:30px;height:30px;vertical-align:middle;margin-right:0.55rem;filter:drop-shadow(0 0 5px rgba(0,255,65,0.5));transition:filter 0.3s,transform 0.3s;}
   .nav-logo:hover .nav-coin{filter:drop-shadow(0 0 11px rgba(0,255,65,0.85));transform:rotate(8deg);}
-  .hero-coin{width:min(200px,42vw);height:auto;display:block;margin:0 auto 2rem;filter:drop-shadow(0 0 30px rgba(0,255,65,0.35)) drop-shadow(0 0 60px rgba(255,105,180,0.25));animation:coin-float 6s ease-in-out infinite;}
-  @keyframes coin-float{0%,100%{transform:translateY(0) rotate(-1.2deg)}50%{transform:translateY(-12px) rotate(1.2deg)}}
-  @media(prefers-reduced-motion:reduce){.hero-coin{animation:none}}
   .nav-links{display:flex;gap:2rem;list-style:none;}
   .nav-links a{color:var(--dim-green);text-decoration:none;font-size:0.75rem;letter-spacing:0.1em;text-transform:uppercase;transition:color 0.2s;}
   .nav-links a:hover{color:var(--green);}
@@ -155,7 +152,6 @@
   <div class="hero-overlay"></div>
   <div class="scan-line"></div>
   <div class="hero-content">
-    <img class="hero-coin" src="assets/life-coin-512.png" alt="LIFE Compute — DNA helix coin">
     <p class="hero-eyebrow">// PROOF OF USEFUL WORK &middot; SOLANA BLOCKCHAIN</p>
     <h1 class="hero-title">LIFE COM<span class="pute">PUTE</span></h1>
     <p class="hero-sub">DECENTRALIZED CANCER DRUG DISCOVERY NETWORK &middot; POWERED BY BOLTZ2 MOLECULAR DOCKING</p>
