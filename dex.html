@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI-DOGMA DEX — Coming in the Future · LIFE COMPUTE</title>
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="256x256" href="assets/life-coin-256.png">
+  <link rel="apple-touch-icon" href="assets/life-coin-256.png">
+  <meta property="og:title" content="AI-DOGMA DEX — Coming in the Future">
+  <meta property="og:description" content="Where discovery becomes exchange. Every $LIFE here will be earned — by a GPU, a target, a confirmation.">
+  <meta property="og:image" content="https://lifecompute.ai/assets/life-coin-og.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://lifecompute.ai/assets/life-coin-og.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --green:     #00ff41;
+      --pink:      #ff69b4;
+      --cyan:      #00ffff;
+      --purple:    #9d00ff;
+      --blue:      #4d9fff;
+      --dark:      #050a08;
+      --dim-green: #00aa28;
+
+      /* RNA matrix palette */
+      --rna-teal:   #5df2c2;
+      --rna-purple: #c98bf5;
+      --rna-pink:   #ff6fae;
+      --rna-green:  #8bf58f;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      background: var(--dark);
+      color: var(--rna-teal);
+      font-family: 'Space Mono', 'Courier New', monospace;
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+
+    /* ── Full-page RNA matrix rain canvas ───────────────── */
+    #rna-rain {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      z-index: 0;
+      display: block;
+      pointer-events: none;
+    }
+
+    /* ── Nav (matches index.html / brain.html) ──────────── */
+    nav {
+      position: sticky; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 2rem;
+      background: rgba(5,10,8,0.82);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(93,242,194,0.12);
+    }
+    .nav-logo { font-family: 'Share Tech Mono', monospace; font-size: 1rem; letter-spacing: 0.1em; color: var(--green); }
+    .nav-logo .pute { color: var(--pink); }
+    .nav-coin { width: 30px; height: 30px; vertical-align: middle; margin-right: 0.55rem; filter: drop-shadow(0 0 5px rgba(0,255,65,0.5)); transition: filter 0.3s, transform 0.3s; }
+    .nav-logo:hover .nav-coin { filter: drop-shadow(0 0 11px rgba(0,255,65,0.85)); transform: rotate(8deg); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a {
+      color: var(--dim-green); text-decoration: none;
+      font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: var(--green); }
+    .nav-links a.active { color: var(--rna-teal); text-shadow: 0 0 9px rgba(93,242,194,0.65); }
+
+    /* ── Centered overlay content ───────────────────────── */
+    .dex-stage {
+      position: relative; z-index: 10;
+      min-height: calc(100vh - 62px);
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      text-align: center;
+      padding: 4rem 1.5rem 5rem;
+    }
+
+    .dex-title {
+      font-family: 'Share Tech Mono', monospace;
+      font-size: clamp(2.6rem, 9vw, 6.5rem);
+      letter-spacing: 0.34em;
+      text-transform: uppercase;
+      color: var(--rna-teal);
+      text-shadow: 0 0 22px rgba(93,242,194,0.45), 0 0 60px rgba(93,242,194,0.18);
+      /* letter-spacing pushes the block right; nudge it back for true centering */
+      margin-right: -0.34em;
+      line-height: 1.05;
+    }
+
+    .dex-dogma {
+      margin-top: 1.4rem;
+      font-size: clamp(0.85rem, 2.4vw, 1.25rem);
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: rgba(93,242,194,0.72);
+      text-shadow: 0 0 10px rgba(5,10,8,0.95), 0 0 22px rgba(5,10,8,0.9);
+      margin-right: -0.22em;
+    }
+
+    .dex-coming {
+      margin-top: 2.6rem;
+      font-family: 'Share Tech Mono', monospace;
+      font-size: clamp(1.05rem, 3vw, 1.7rem);
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--rna-pink);
+      text-shadow: 0 0 14px rgba(255,111,174,0.4);
+      margin-right: -0.3em;
+    }
+
+    .dex-badge {
+      margin-top: 1.5rem;
+      display: inline-block;
+      padding: 0.4rem 1.1rem;
+      border: 1px solid rgba(201,139,245,0.4);
+      border-radius: 2px;
+      background: rgba(201,139,245,0.06);
+      color: var(--rna-purple);
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+
+    .dex-copy {
+      margin-top: 3.2rem;
+      max-width: 640px;
+      font-size: clamp(0.85rem, 2.1vw, 1rem);
+      line-height: 2;
+      color: rgba(139,245,143,0.8);
+      padding: 1.6rem 1.8rem;
+      border: 1px solid rgba(93,242,194,0.14);
+      border-radius: 3px;
+      background: rgba(5,10,8,0.62);
+      backdrop-filter: blur(3px);
+    }
+    .dex-copy strong { color: var(--rna-teal); font-weight: 700; }
+
+    .dex-note {
+      margin-top: 1.6rem;
+      font-size: 0.7rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(93,242,194,0.32);
+    }
+
+    footer {
+      position: relative; z-index: 10;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.72rem;
+      color: rgba(93,242,194,0.35);
+      border-top: 1px solid rgba(93,242,194,0.1);
+      background: rgba(5,10,8,0.7);
+    }
+    footer a { color: rgba(93,242,194,0.55); text-decoration: none; }
+    footer a:hover { color: var(--rna-teal); }
+
+    @media (max-width: 700px) {
+      .nav-links { display: none; }
+      .dex-title { letter-spacing: 0.2em; margin-right: -0.2em; }
+    }
+  </style>
+</head>
+<body>
+
+<canvas id="rna-rain"></canvas>
+
+<nav>
+  <div class="nav-logo"><img class="nav-coin" src="assets/life-coin-128.png" alt="">LIFE COM<span class="pute">PUTE</span></div>
+  <ul class="nav-links">
+    <li><a href="index.html#mission">Mission</a></li>
+    <li><a href="index.html#science">Science</a></li>
+    <li><a href="index.html#targets">Targets</a></li>
+    <li><a href="index.html#token">Token</a></li>
+    <li><a href="index.html#start">Get Started</a></li>
+    <li><a href="index.html#crispr" style="color:var(--blue);text-shadow:0 0 6px rgba(77,159,255,0.4);">CRISPR</a></li>
+    <li><a href="index.html#nfts">Discovery NFTs</a></li>
+    <li><a href="discoveries.html" style="color:var(--green);">Discoveries</a></li>
+    <li><a href="brain.html" style="color:var(--purple);text-shadow:0 0 8px rgba(157,0,255,0.5);">LIFE-BRAIN</a></li>
+    <li><a href="dex.html" class="active">AI-DOGMA</a></li>
+    <li><a href="index.html#donate" style="color:var(--pink);text-shadow:0 0 8px rgba(255,105,180,0.5);">Donate</a></li>
+  </ul>
+</nav>
+
+<main class="dex-stage">
+  <h1 class="dex-title">AI-DOGMA</h1>
+  <p class="dex-dogma">DNA &rarr; RNA &rarr; Protein</p>
+
+  <p class="dex-coming">Coming in the future</p>
+  <span class="dex-badge">Teaser &middot; Not Live &middot; No Trading</span>
+
+  <p class="dex-copy">
+    Where discovery becomes exchange. Every <strong>$LIFE</strong> here will be earned —
+    by a GPU, a target, a confirmation. Nothing will trade here until real work fills
+    the pool first.
+  </p>
+
+  <p class="dex-note">No wallet connection &middot; No pool &middot; No orders &middot; Announcement only</p>
+</main>
+
+<footer>
+  <p>
+    <a href="index.html">lifecompute.ai</a>
+    &nbsp;&middot;&nbsp; <a href="brain.html">LIFE-BRAIN</a>
+    &nbsp;&middot;&nbsp; <a href="discoveries.html">Discoveries</a>
+    &nbsp;&middot;&nbsp; MIT License
+  </p>
+</footer>
+
+<script>
+/* ═══════════════════════════════════════════════════════════════════════
+   AI-DOGMA — biopunk RNA matrix rain
+   Canvas 2D, zero deps. Only A/U/G/C (RNA bases — no T).
+   Palette assigned randomly per drawn letter.
+   Long trailing fade via very low-alpha clearRect each frame.
+═══════════════════════════════════════════════════════════════════════ */
+(function () {
+  var canvas = document.getElementById('rna-rain');
+  var ctx    = canvas.getContext('2d');
+
+  var BASES    = ['A', 'U', 'G', 'C'];
+  var COLORS   = ['#5df2c2', '#c98bf5', '#ff6fae', '#8bf58f'];
+  var FONT_PX  = 13;
+  var BG       = '#050a08';
+  var FADE     = 0.055;   // long trail
+
+  var cols = 0;
+  var drops = [];         // y position (in rows, fractional) per column
+  var speeds = [];        // per-column fall speed
+
+  function resize() {
+    var dpr = window.devicePixelRatio || 1;
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+
+    canvas.width  = Math.floor(w * dpr);
+    canvas.height = Math.floor(h * dpr);
+    canvas.style.width  = w + 'px';
+    canvas.style.height = h + 'px';
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.font = FONT_PX + "px 'Share Tech Mono', 'Courier New', monospace";
+    ctx.textBaseline = 'top';
+
+    var newCols = Math.ceil(w / FONT_PX);
+    for (var i = 0; i < newCols; i++) {
+      if (drops[i] === undefined) {
+        drops[i]  = Math.random() * (h / FONT_PX);
+        speeds[i] = 0.35 + Math.random() * 0.25;
+      }
+    }
+    drops.length  = newCols;
+    speeds.length = newCols;
+    cols = newCols;
+
+    // repaint base so the first frames aren't transparent
+    ctx.fillStyle = BG;
+    ctx.fillRect(0, 0, w, h);
+  }
+
+  function draw() {
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+
+    // long trailing fade
+    ctx.fillStyle = 'rgba(5, 10, 8, ' + FADE + ')';
+    ctx.fillRect(0, 0, w, h);
+
+    for (var i = 0; i < cols; i++) {
+      var ch = BASES[(Math.random() * BASES.length) | 0];
+      ctx.fillStyle = COLORS[(Math.random() * COLORS.length) | 0];
+      ctx.fillText(ch, i * FONT_PX, drops[i] * FONT_PX);
+
+      // reset to top randomly once past the bottom
+      if (drops[i] * FONT_PX > h && Math.random() > 0.975) {
+        drops[i] = 0;
+        speeds[i] = 0.35 + Math.random() * 0.25;
+      }
+      drops[i] += speeds[i];
+    }
+
+    requestAnimationFrame(draw);
+  }
+
+  window.addEventListener('resize', resize);
+  resize();
+  requestAnimationFrame(draw);
+})();
+</script>
+
+</body>
+</html>
