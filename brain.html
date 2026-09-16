@@ -339,7 +339,13 @@
    Honesty: buildScene() consumes ONLY snapshot data; error on bad fetch
 ═══════════════════════════════════════════════════════════════════════ */
 
-const SNAPSHOT_URL  = 'https://raw.githubusercontent.com/life-compute/miner/main/output/life_brain_snapshot.json';
+// NOTE: reads from the stage4-pegrna-daemon branch, not main. The LIFE-BRAIN
+// snapshot pusher (adaptive/life_brain.py) does `git push origin HEAD`, so
+// snapshots land on whatever branch the miner runs. Repointing the pusher to
+// main would drag unmerged Stage 4 pegRNA work onto the public branch, so the
+// page follows the miner's branch instead. If the miner's working branch ever
+// changes (or Stage 4 merges to main), update this ref to match.
+const SNAPSHOT_URL  = 'https://raw.githubusercontent.com/life-compute/miner/stage4-pegrna-daemon/output/life_brain_snapshot.json';
 const POLL_MS       = 30_000;
 const SCALE         = 4.5;
 const ARRIVAL_MS    = 1_800;
