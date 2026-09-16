@@ -275,8 +275,23 @@
 const DISCOVERIES_URL = 'https://raw.githubusercontent.com/life-compute/miner/main/output/discoveries.json';
 const LICENSE_EMAIL   = 'lifecompute313@gmail.com';
 
-function solanaExplorer(txHash) {
-  return `https://explorer.solana.com/tx/${txHash}?cluster=mainnet-beta`;
+// Registry entries (output/discoveries.json) carry `modality` as
+// 'crispr_grna' | 'small_molecule'. Small molecules cover both protein and
+// mRNA targets, which are distinguished only by the target_id suffix
+// (e.g. LDHA_mRNA, PDL1_CRISPR, TP53). Normalize to the three display types.
+function moleculeType(d) {
+  const explicit = d.molecule_type || d.type;
+  if (explicit) return explicit;
+
+  const tid = String(d.target_id || d.target_name || '');
+  if (d.modality === 'crispr_grna' || /_CRISPR$/i.test(tid)) return 'CRISPR';
+  if (/_mRNA$/i.test(tid)) return 'mRNA';
+  if (d.modality === 'small_molecule') return 'Protein';
+  return '';
+}
+
+function solanaExplorer(txHash, cluster) {
+  return `https://explorer.solana.com/tx/${txHash}?cluster=${cluster || 'mainnet-beta'}`;
 }
 
 function formatDate(iso) {
@@ -325,18 +340,18 @@ function seqLabel(t) {
 }
 
 function buildCard(d, idx) {
-  const mtype   = d.molecule_type || d.type || 'Protein';
+  const mtype   = moleculeType(d) || 'Protein';
   const cc      = cardClass(mtype);
   const bc      = badgeClass(mtype);
   const seq     = d.sequence || d.smiles || d.grna_sequence || '';
-  const score   = d.affinity_score ?? d.score ?? d.combined_score ?? null;
+  const score   = d.affinity_score ?? d.score ?? d.combined_score ?? d.affinity ?? null;
   const target  = d.target_name || d.target || 'Unknown Target';
   const date    = d.discovery_date || d.minted_at || d.timestamp || '';
   const wallet  = d.miner_wallet || d.hotkey || '';
-  const tx      = d.nft_tx || d.tx_hash || d.transaction || '';
+  const tx      = d.nft_tx || d.tx_hash || d.transaction || d.mint_tx || '';
   const discNum = d.discovery_number ?? (idx + 1);
 
-  const solanaHref = tx ? solanaExplorer(tx) : '#';
+  const solanaHref = tx ? solanaExplorer(tx, d.cluster) : '#';
   const solanaTarget = tx ? 'target="_blank" rel="noopener"' : '';
   const solanaDisabled = tx ? '' : 'style="opacity:0.35;pointer-events:none;"';
 
@@ -375,11 +390,11 @@ function buildCard(d, idx) {
 
 function updateStats(discoveries) {
   const total   = discoveries.length;
-  const protein = discoveries.filter(d => (d.molecule_type||d.type||'').toLowerCase() === 'protein').length;
-  const mrna    = discoveries.filter(d => (d.molecule_type||d.type||'').toLowerCase() === 'mrna').length;
-  const crispr  = discoveries.filter(d => (d.molecule_type||d.type||'').toLowerCase() === 'crispr').length;
-  const scores  = discoveries.map(d => parseFloat(d.affinity_score ?? d.score ?? d.combined_score ?? 'NaN')).filter(n => !isNaN(n));
-  const best    = scores.length ? Math.max(...scores).toFixed(4) : '—';
+  const protein = discoveries.filter(d => moleculeType(d).toLowerCase() === 'protein').length;
+  const mrna    = discoveries.filter(d => moleculeType(d).toLowerCase() === 'mrna').length;
+  const crispr  = discoveries.filter(d => moleculeType(d).toLowerCase() === 'crispr').length;
+  const scores  = discoveries.map(d => parseFloat(d.affinity_score ?? d.score ?? d.combined_score ?? d.affinity ?? 'NaN')).filter(n => !isNaN(n));
+  const best    = scores.length ? Math.min(...scores).toFixed(4) : '—';
 
   document.getElementById('stat-total').textContent   = total;
   document.getElementById('stat-protein').textContent = protein;
@@ -397,7 +412,7 @@ function renderCards() {
   const empty = document.getElementById('empty-state');
 
   const filtered = allDiscoveries.filter(d => {
-    const mtype  = (d.molecule_type || d.type || '').toLowerCase();
+    const mtype  = moleculeType(d).toLowerCase();
     const target = (d.target_name || d.target || '').toLowerCase();
     const seq    = (d.sequence || d.smiles || d.grna_sequence || '').toLowerCase();
 
