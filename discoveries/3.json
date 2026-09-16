@@ -1,49 +1,33 @@
 {
   "name": "LIFE Discovery #3",
   "symbol": "LIFE-DSC",
-  "description": "Top-10% CRISPR guide RNA for MYC discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This 20-mer gRNA is the 1st validated guide for MYC identified by the LIFE decentralized drug-discovery network. Cancer indication: pan-cancer. Discovered 2026-09-16.",
+  "description": "First confirmed computational hit for Interleukin-6 (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 1st validated binder for IL6_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-09-16.",
   "image": "https://lifecompute.ai/assets/life-coin-256.png",
   "external_url": "https://lifecompute.ai/discoveries.html",
   "attributes": [
     {
       "trait_type": "modality",
-      "value": "CRISPR gRNA"
+      "value": "small molecule"
     },
     {
       "trait_type": "target_id",
-      "value": "MYC_CRISPR"
+      "value": "IL6_mRNA"
     },
     {
-      "trait_type": "gene_name",
-      "value": "MYC"
-    },
-    {
-      "trait_type": "cancer_indication",
-      "value": "pan-cancer"
+      "trait_type": "target_name",
+      "value": "Interleukin-6 (mRNA target)"
     },
     {
       "trait_type": "uniprot_id",
-      "value": "P01106"
+      "value": "P05231"
     },
     {
-      "trait_type": "grna_sequence",
-      "value": "GGCATTCCGGAATTCCGGAA"
+      "trait_type": "smiles",
+      "value": "Cn1ccnc1-c1ccc([C@@H]2CNC(=O)C2)cc1"
     },
     {
-      "trait_type": "on_target_score",
-      "value": "0.9000"
-    },
-    {
-      "trait_type": "off_target_score",
-      "value": "0.9500"
-    },
-    {
-      "trait_type": "delivery_score",
-      "value": "0.8100"
-    },
-    {
-      "trait_type": "combined_affinity",
-      "value": "-9.1"
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.3708"
     },
     {
       "trait_type": "discovery_rank",
@@ -59,15 +43,15 @@
     },
     {
       "trait_type": "validator_tx",
-      "value": "autopublish-e2e-3"
+      "value": "5N34YBw4DQ3ixQgJ9qZ67XRtZEDWChzwSHKkcWVqm5ZgmHFu7PFfuy9YHQmmmmuWFY89gnTtx6hVhtQTvapHgJ7D"
     },
     {
       "trait_type": "timestamp",
-      "value": "2026-09-16T12:30:00+00:00"
+      "value": "2026-09-16T12:11:25.973359+00:00"
     },
     {
       "trait_type": "source",
-      "value": "LIFE Compute / CRISPR gRNA Optimizer"
+      "value": "LIFE Compute / Boltz2"
     },
     {
       "trait_type": "proceeds",
