@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #60",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Cyclin-dependent kinase 4 (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 4th validated binder for CDK4_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-09-17.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "CDK4_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Cyclin-dependent kinase 4 (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "P11802"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "Cc1cc(C(=O)NCc2ccncc2C)nc(C)n1"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.3356"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "4"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "60"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "5DmQuwthYWWP12o8Hk1i2SnuwSb8Vpuw9tBzMFmFfE1aQqDEZsor68E56z7GSthth6gEPbLk5nSgy9G86enbLSaL"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-09-17T12:42:05.325025+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
