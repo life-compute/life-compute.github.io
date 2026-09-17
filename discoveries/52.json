@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #52",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Vascular endothelial growth factor A (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 1st validated binder for VEGF_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-09-17.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "VEGF_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Vascular endothelial growth factor A (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "P15692"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "OC1=NCCN(Cc2coc(-c3ccc(Cl)cc3)n2)C1"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.221"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "1"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "52"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "3vUWB9P2EqqwCDyaU3SMsH8Wmzqr6WkAptYFAvDZFxN3FHKvfSUaWbEzNkSZZ5aK24LCBnLErdQDhxJJyGzMRLzF"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-09-17T06:57:53.509997+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
