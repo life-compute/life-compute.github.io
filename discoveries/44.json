@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #44",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Receptor tyrosine-protein kinase erbB-2 (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 1st validated binder for HER2_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-09-17.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "HER2_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Receptor tyrosine-protein kinase erbB-2 (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "P04626"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "C[C@@H](C(=O)N1CCC[C@@H](c2ccn[nH]2)C1)c1ccsc1"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-7.8271"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "1"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "44"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "3CoW1ocvMXeHBSU8gSgofNDA2kaTE9H8LNk1T3iYu9Kmgyo5p99vMwgm8fJvspeWCygXVGBsWx7KVFxGEp1HSnoe"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-09-17T02:31:57.890766+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
