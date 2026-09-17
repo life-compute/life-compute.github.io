@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #54",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Macrophage colony-stimulating factor 1 receptor (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 1st validated binder for CSF1R_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-09-17.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "CSF1R_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Macrophage colony-stimulating factor 1 receptor (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "P07333"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "S=c1[nH]cnc2c1ncn2C1C=CC=CC=C1"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.3335"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "1"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "54"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "5QdkfGecAkRBSzymiBFDCgLAM6rxnp6w37xYFFCaTH9BZTMEzBtDRVfwf9HPAexJEZp6isBjkS1RqizoyMbE8xAU"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-09-17T07:18:44.066087+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
