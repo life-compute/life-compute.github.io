@@ -1,0 +1,86 @@
+{
+  "name": "LIFE Discovery #91",
+  "symbol": "LIFE-DSC",
+  "description": "Top-10% CRISPR guide RNA for HER2 discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This 20-mer gRNA is the 5th validated guide for HER2 identified by the LIFE decentralized drug-discovery network. Cancer indication: breast, gastric. Discovered 2026-09-18.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "CRISPR gRNA"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "HER2_CRISPR"
+    },
+    {
+      "trait_type": "gene_name",
+      "value": "HER2"
+    },
+    {
+      "trait_type": "cancer_indication",
+      "value": "breast, gastric"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "P04626"
+    },
+    {
+      "trait_type": "grna_sequence",
+      "value": "TACAGAGCCCACCTTGGCCC"
+    },
+    {
+      "trait_type": "on_target_score",
+      "value": "0.2655"
+    },
+    {
+      "trait_type": "off_target_score",
+      "value": "1.0000"
+    },
+    {
+      "trait_type": "delivery_score",
+      "value": "1.0000"
+    },
+    {
+      "trait_type": "combined_affinity",
+      "value": "-8.7282"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "5"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "91"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "3M1gqrfAocoEU6ye49XFU1QMp8Qi4XMJAowaYAMCh6juY6iGB5Zu7MYMVRNMqnMn3msW3mrqaCTW5XZftGqTY6tC"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-09-18T02:53:38.337337+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / CRISPR gRNA Optimizer"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
