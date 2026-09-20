@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #203",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Telomerase reverse transcriptase (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 3rd validated binder for TERT_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-09-20.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "TERT_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Telomerase reverse transcriptase (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "O14746"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "CC(C)(C)[C@@H]1CCN(C(=O)NCc2ccco2)C[C@H]1O"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-7.8479"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "3"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "203"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "s2mWzn4woVJFVLG22zE3B8Q6GgXaY7yFGoPmr1uLHZp2DmPQVzMYpCZr2bSX6rx1hriTg1Mn8a62qWghmmPKeAS"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-09-20T06:28:08.238599+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
