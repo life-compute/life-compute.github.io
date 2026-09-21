@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #247",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Hexokinase-2 (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 7th validated binder for HK2_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-09-21.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "HK2_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Hexokinase-2 (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "P52789"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "Nc1cccc2c1CN(C(=O)c1ccc(NC(=O)Nc3ccc4[nH]c(C5CC5)cc4c3)cc1)C(=O)C2"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-7.9678"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "7"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "247"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "5VrPRnQtV8hmwDAZVEHvYFsT7ufKRAVJNHcxnqzyXHqvjQyKgUGLAGaCuHEZwhoEaMt2HimjdccA9MXGaVvjLS2C"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-09-21T08:36:36.942760+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
