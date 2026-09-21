@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #238",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Programmed cell death 1 ligand 1 (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 8th validated binder for PDL1_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-09-21.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "PDL1_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Programmed cell death 1 ligand 1 (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "Q9NZQ7"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "O=C(NC(=O)C1CC1)c1ccc(NC(=O)c2ccc(C3CC3)cc2)cc1"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.3384"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "8"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "238"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "xH6RKgaTy4NSeminNreaAqqYyx4pL7b1S5VoMdzkMFwyv15sTiTUx76FJb6pcT3HgKZCHJXfp3K1CPfS9avdjY5"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-09-21T01:38:00.756731+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
