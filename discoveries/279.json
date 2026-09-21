@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #279",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for GTPase KRas (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 8th validated binder for KRAS_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-09-21.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "KRAS_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "GTPase KRas (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "P01116"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "Nc1ncnc2c1CN(c1cc3cc(C4CC4)ccc3[nH]1)C(=O)C2"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.4491"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "8"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "279"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "5fafwAVkEYcCDdUWXgXFpgJU1T6ZfM7ey6eA9kqFVyX7B8knUx9L4emem96TGT95nzWkxEptaMXRZ3qMvGBFRVcJ"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-09-21T19:43:53.082362+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
