@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #290",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Solute carrier family 2, facilitated glucose transporter member 1 (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 7th validated binder for GLUT1_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-09-21.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "GLUT1_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Solute carrier family 2, facilitated glucose transporter member 1 (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "P11166"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "Cc1ccc2c(C)nc(N=C3NCN(C(C)C)CN3)nc2c1"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.5799"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "7"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "290"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "5bv4xFLDWMiUjAirjAZkVJEeA9RSFa8ZAEFUaTyahTPkYPeoqVaNAR4PZBCUPujp1FQUBjV916QuD4sYGmynoA25"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-09-21T23:09:57.970954+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
