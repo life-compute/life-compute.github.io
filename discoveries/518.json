@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #518",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Fatty acid synthase (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 11th validated binder for FASN_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-09-28.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "FASN_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Fatty acid synthase (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "P49327"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "CCOc1ccc(Br)cc1[C@@H](O)CC(C)=O"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.3323"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "11"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "518"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "5wNb3BQD4aGPhreGndgXZbiejK9mbwtXe2W1CQQr2EB1dEw1Pupr1vMVw7gpRZCS2WMaWucjj43Coc7ibN6MirvN"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-09-28T18:32:02.104965+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
