@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #585",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Mothers against decapentaplegic homolog 4 discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 13th validated binder for SMAD4 identified by the LIFE decentralized drug-discovery network. Discovered 2026-09-30.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "SMAD4"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Mothers against decapentaplegic homolog 4"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "Q13485"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "O=C(OCC[C@@H]1CCCO1)[C@@H]1C[C@H]1c1ccco1"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-7.873"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "13"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "585"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "kofqAkRNnSM6fua48wUHTCniVWz4XH9gwAoP5FuYt9pgFWBzvNmhUAmaiNFEh8yjUm7J4CEJTXwE6csoWJyVUx2"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-09-30T15:30:40.046186+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
