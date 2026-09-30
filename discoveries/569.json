@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #569",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for L-lactate dehydrogenase A chain (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 17th validated binder for LDHA_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-09-30.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "LDHA_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "L-lactate dehydrogenase A chain (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "P00338"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "O=C(CCc1cn[nH]c1)N=c1ccc2c([nH]1)OCCO2"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-7.7011"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "17"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "569"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "5phcKT4J1nWNQLdqPB5Yx6718ehtU26Eg8wtYyBxt5rS1UtVaz6y7F4ZxMXMfxmJfHZ1VPoUr4u7a5pFBjKhax9Q"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-09-30T03:34:30.192724+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
