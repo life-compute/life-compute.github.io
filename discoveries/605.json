@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #605",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Baculoviral IAP repeat-containing protein 5 / Survivin (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 20th validated binder for SURVIVIN_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-10-01.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "SURVIVIN_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Baculoviral IAP repeat-containing protein 5 / Survivin (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "O15392"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "O=S1(=O)C[C@@]2(N3CCCC3)c3ccccc3CC[C@@H]21"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.254"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "20"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "605"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "2DnomD329XCR3cZvZmrQxo1DMcco76B6e35zeDjCRnARkxpDcLVUtUBNu9SZHExDtugPANNce3zQMXo5Bfv1R9RQ"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-10-01T05:48:22.340834+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
