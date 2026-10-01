@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #604",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for G1/S-specific cyclin-D1 (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 23rd validated binder for CCND1_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-10-01.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "CCND1_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "G1/S-specific cyclin-D1 (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "P24385"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "C=C(C)C[C@H](C)C(=O)N[C@@H]1CCO[C@H]1c1nccn1CC"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.3649"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "23"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "604"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "24s6oVFoe3RwVG3N5iU3hmM1SSCPXsZWZEBRPRseQKv3WHMyZ2BV75BcABjrP4KAjaQiVrNadTR7StWX75kUXT5q"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-10-01T03:38:38.780497+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
