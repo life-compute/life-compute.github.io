@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #607",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for E3 ubiquitin-protein ligase Mdm2 (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 18th validated binder for MDM2_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-10-01.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "MDM2_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "E3 ubiquitin-protein ligase Mdm2 (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "Q00987"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "CN(Cc1ccc(F)c(Cl)c1)C(N)=O"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.4464"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "18"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "607"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "5GKMk4yprcLLLLWNxpDatooX2TVHpk2YnzgEfAr1Y3n2VxN5WkiCz1CXRQsVABHiq3xWUYmFF4SoTqX5a13q7oDi"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-10-01T09:45:46.731721+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
