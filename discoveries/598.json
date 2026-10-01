@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #598",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Serine-protein kinase ATM (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 11th validated binder for ATM_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-10-01.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "ATM_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Serine-protein kinase ATM (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "Q13315"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "COc1ccc2nnc(CNC(=O)CC(F)(F)F)n2n1"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.4218"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "11"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "598"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "4oDSsCv2tvaKFo2ZDdLG1giUEjEtGvkeMcnKqaRw4A18oH6yfHitcz6iFtwyuB8XdRWzjXiRv8KUUWwzqvtZUjyH"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-10-01T00:58:35.416395+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
