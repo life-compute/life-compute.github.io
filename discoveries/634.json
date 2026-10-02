@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #634",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for DNA repair protein RAD51 (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 22nd validated binder for RAD51_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-10-02.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "RAD51_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "DNA repair protein RAD51 (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "Q06609"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "C[C@H]1C[C@H](C)CN(CCN[C@@H]2CCO[C@H]2c2cc[nH]n2)C1"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.4281"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "22"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "634"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "SPzV7Hdtk5YCzkuiyHpA5QD1VHdVVgaAtSJBmXiURQqhhzdD6TXCrt2gvvf2SZSSfh372RPzeJGKY1wdMx8LD7x"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-10-02T08:11:11.011657+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
