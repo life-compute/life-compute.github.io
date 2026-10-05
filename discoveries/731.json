@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #731",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Hypoxia-inducible factor 1-alpha (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 12th validated binder for HIF1A_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-10-05.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "HIF1A_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Hypoxia-inducible factor 1-alpha (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "Q16665"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "Cn1cc(NC(=O)c2ccc(C(F)(F)F)nc2)cn1"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.3858"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "12"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "731"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "2BogQDD14SazjKwkYa9uXhL5UiuEa2K5bLrfG1rAbbv9yWD8aj65aJ5MKbxjtqnTGc36MXaffZQoLRds56RUY86d"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-10-05T06:44:00.064952+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
