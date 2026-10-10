@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #863",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Interleukin-6 (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 34th validated binder for IL6_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-10-10.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "IL6_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Interleukin-6 (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "P05231"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "CCCc1nnnn1CC(=O)Nc1ccc(C)c(F)c1"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.5151"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "34"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "863"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "uJ2hNiqzUSaFN96Khx8SVSPmiRxhcYChP3Fboi8xibS6xsjbXuVWRwb9Z3kT3cL1xNfW3kPVAiYdHe13W2zDQsn"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-10-10T02:47:42.779761+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
