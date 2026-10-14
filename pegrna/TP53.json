@@ -1,0 +1,298 @@
+{
+  "header": {
+    "title": "pegRNA design table",
+    "generated_at": "2026-10-14T12:18:05Z",
+    "generated_date": "2026-10-14",
+    "model": {
+      "name": "GradientBoostingRegressor",
+      "format": "life-peg-gbr-json",
+      "format_version": 1,
+      "label": "HEKaverageedited_clamped",
+      "sha256_16": "d215f65a7727cf9f",
+      "n_trees": 200,
+      "n_features": 43,
+      "metrics": {
+        "grouped_r2": 0.6853,
+        "grouped_spearman": 0.8363,
+        "random_r2": 0.6916,
+        "random_spearman": 0.8392,
+        "leakage_gap": 0.0063,
+        "beats_mean_baseline": true
+      }
+    },
+    "training_data": {
+      "source": "PRIDICT2",
+      "cell_lines": [
+        "HEK293T",
+        "K562"
+      ],
+      "n_rows_trained": 22956
+    },
+    "caveat": "Predictions from a published model, meant to narrow what is tested at the bench. Not experimental results. The independently recomputed field reflects an evaluator run on the same machine as the miner, using the same model; cross-machine reproduction has been checked on a 200-row sample, not every row.",
+    "license": "CC BY 4.0. Cite as: LIFE Compute, pegRNA design predictions, 2026-10-14, model sha256_16 d215f65a7727cf9f.",
+    "missing_standard_fields": [
+      "hgvs_c -- no CDS-level HGVS notation is recorded",
+      "hgvs_p -- no protein-level consequence is recorded",
+      "chromosome / genome_build / genomic_coordinate -- source offsets index a RefSeqGene accession, not GRCh38; no chromosomal position is available",
+      "pam_sequence -- only the PAM offset is recorded, not the bases",
+      "nicking_sgrna -- no PE3/PE3b second-nick guide is designed",
+      "scaffold_sequence -- the pegRNA scaffold is not stored with the candidate",
+      "off_target_score -- no off-target search has been run",
+      "mmr_status -- MMR-proficiency of the intended cell line is not recorded",
+      "pbs_tm / rtt_tm -- melting temperatures are model-internal features, not emitted in the candidate rows",
+      "clinvar_id / dbsnp_id -- no variant database cross-reference"
+    ],
+    "total_unique_designs": 140
+  },
+  "gene": "TP53",
+  "n_designs": 20,
+  "n_hotspots": 4,
+  "hotspots": [
+    "R175H",
+    "R248W/Q",
+    "R249S",
+    "R273H"
+  ],
+  "designs": [
+    {
+      "gene": "TP53",
+      "hotspot_label": "R175H",
+      "strand": "+",
+      "spacer": "CACAGCACATGACGGAGGTT",
+      "pbs": "AACCTCCGTCATG",
+      "rtt": "GGGCAGCACCTCAC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.758376,
+      "rank_in_hotspot": 1,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R175H",
+      "strand": "+",
+      "spacer": "CACAGCACATGACGGAGGTT",
+      "pbs": "AACCTCCGTCATGTGC",
+      "rtt": "GGGCAGCACCTCAC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.757902,
+      "rank_in_hotspot": 2,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R175H",
+      "strand": "+",
+      "spacer": "CACAGCACATGACGGAGGTT",
+      "pbs": "AACCTCCGTCATGTG",
+      "rtt": "GGGCAGCACCTCAC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.755944,
+      "rank_in_hotspot": 3,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R175H",
+      "strand": "+",
+      "spacer": "CACAGCACATGACGGAGGTT",
+      "pbs": "AACCTCCGTCATGT",
+      "rtt": "GGGCAGCACCTCAC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.750892,
+      "rank_in_hotspot": 4,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R175H",
+      "strand": "+",
+      "spacer": "CACAGCACATGACGGAGGTT",
+      "pbs": "AACCTCCGTCAT",
+      "rtt": "GGGCAGCACCTCAC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.742013,
+      "rank_in_hotspot": 5,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R248W/Q",
+      "strand": "-",
+      "spacer": "TCCAGTGTGATGATGGTGAG",
+      "pbs": "CTCACCATCATCACACT",
+      "rtt": "GGCATGAACTGGAGGCCCATC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.765354,
+      "rank_in_hotspot": 1,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R248W/Q",
+      "strand": "-",
+      "spacer": "TCCAGTGTGATGATGGTGAG",
+      "pbs": "CTCACCATCATCACACT",
+      "rtt": "GCATGAACTGGAGGCCCATC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.759674,
+      "rank_in_hotspot": 2,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R248W/Q",
+      "strand": "-",
+      "spacer": "TTCCAGTGTGATGATGGTGA",
+      "pbs": "TCACCATCATCACACTG",
+      "rtt": "GCATGAACTGGAGGCCCATCC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.750263,
+      "rank_in_hotspot": 3,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R248W/Q",
+      "strand": "-",
+      "spacer": "TTCCAGTGTGATGATGGTGA",
+      "pbs": "TCACCATCATCACACTG",
+      "rtt": "GGCATGAACTGGAGGCCCATCC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.749997,
+      "rank_in_hotspot": 4,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R248W/Q",
+      "strand": "-",
+      "spacer": "AGTCTTCCAGTGTGATGATG",
+      "pbs": "CATCATCACACTGGAAG",
+      "rtt": "GGCATGAACTGGAGGCCCATCCTCAC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.749868,
+      "rank_in_hotspot": 5,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R249S",
+      "strand": "-",
+      "spacer": "TCCAGTGTGATGATGGTGAG",
+      "pbs": "CTCACCATCATCACACT",
+      "rtt": "ATGAACCGGGGGCCCATC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.713097,
+      "rank_in_hotspot": 1,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R249S",
+      "strand": "-",
+      "spacer": "TCCAGTGTGATGATGGTGAG",
+      "pbs": "CTCACCATCATCACACT",
+      "rtt": "GCATGAACCGGGGGCCCATC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.710653,
+      "rank_in_hotspot": 2,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R249S",
+      "strand": "-",
+      "spacer": "TCCAGTGTGATGATGGTGAG",
+      "pbs": "CTCACCATCATCACAC",
+      "rtt": "ATGAACCGGGGGCCCATC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.708534,
+      "rank_in_hotspot": 3,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R249S",
+      "strand": "-",
+      "spacer": "TCCAGTGTGATGATGGTGAG",
+      "pbs": "CTCACCATCATCACACT",
+      "rtt": "TGAACCGGGGGCCCATC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.708293,
+      "rank_in_hotspot": 4,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R249S",
+      "strand": "-",
+      "spacer": "TCCAGTGTGATGATGGTGAG",
+      "pbs": "CTCACCATCATCACA",
+      "rtt": "ATGAACCGGGGGCCCATC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.707959,
+      "rank_in_hotspot": 5,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R273H",
+      "strand": "+",
+      "spacer": "TCTACTGGGACGGAACAGCT",
+      "pbs": "AGCTGTTCCGTCCCAGT",
+      "rtt": "AGGCACAAACACACACCTCAA",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.731777,
+      "rank_in_hotspot": 1,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R273H",
+      "strand": "+",
+      "spacer": "TCTACTGGGACGGAACAGCT",
+      "pbs": "AGCTGTTCCGTCCCAGT",
+      "rtt": "GGCACAAACACACACCTCAA",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.72784,
+      "rank_in_hotspot": 2,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R273H",
+      "strand": "+",
+      "spacer": "TCTACTGGGACGGAACAGCT",
+      "pbs": "AGCTGTTCCGTCCCAGT",
+      "rtt": "GCACAAACACACACCTCAA",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.727601,
+      "rank_in_hotspot": 3,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R273H",
+      "strand": "+",
+      "spacer": "TCTACTGGGACGGAACAGCT",
+      "pbs": "AGCTGTTCCGTCCCAGT",
+      "rtt": "ACAGGCACAAACACACACCTCAA",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.714423,
+      "rank_in_hotspot": 4,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "TP53",
+      "hotspot_label": "R273H",
+      "strand": "+",
+      "spacer": "TCTACTGGGACGGAACAGCT",
+      "pbs": "AGCTGTTCCGTCCCAGT",
+      "rtt": "GACAGGCACAAACACACACCTCAA",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.708513,
+      "rank_in_hotspot": 5,
+      "independently_recomputed": "matched"
+    }
+  ]
+}

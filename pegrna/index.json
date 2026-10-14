@@ -1,0 +1,89 @@
+{
+  "header": {
+    "title": "pegRNA design table",
+    "generated_at": "2026-10-14T12:18:05Z",
+    "generated_date": "2026-10-14",
+    "model": {
+      "name": "GradientBoostingRegressor",
+      "format": "life-peg-gbr-json",
+      "format_version": 1,
+      "label": "HEKaverageedited_clamped",
+      "sha256_16": "d215f65a7727cf9f",
+      "n_trees": 200,
+      "n_features": 43,
+      "metrics": {
+        "grouped_r2": 0.6853,
+        "grouped_spearman": 0.8363,
+        "random_r2": 0.6916,
+        "random_spearman": 0.8392,
+        "leakage_gap": 0.0063,
+        "beats_mean_baseline": true
+      }
+    },
+    "training_data": {
+      "source": "PRIDICT2",
+      "cell_lines": [
+        "HEK293T",
+        "K562"
+      ],
+      "n_rows_trained": 22956
+    },
+    "caveat": "Predictions from a published model, meant to narrow what is tested at the bench. Not experimental results. The independently recomputed field reflects an evaluator run on the same machine as the miner, using the same model; cross-machine reproduction has been checked on a 200-row sample, not every row.",
+    "license": "CC BY 4.0. Cite as: LIFE Compute, pegRNA design predictions, 2026-10-14, model sha256_16 d215f65a7727cf9f.",
+    "missing_standard_fields": [
+      "hgvs_c -- no CDS-level HGVS notation is recorded",
+      "hgvs_p -- no protein-level consequence is recorded",
+      "chromosome / genome_build / genomic_coordinate -- source offsets index a RefSeqGene accession, not GRCh38; no chromosomal position is available",
+      "pam_sequence -- only the PAM offset is recorded, not the bases",
+      "nicking_sgrna -- no PE3/PE3b second-nick guide is designed",
+      "scaffold_sequence -- the pegRNA scaffold is not stored with the candidate",
+      "off_target_score -- no off-target search has been run",
+      "mmr_status -- MMR-proficiency of the intended cell line is not recorded",
+      "pbs_tm / rtt_tm -- melting temperatures are model-internal features, not emitted in the candidate rows",
+      "clinvar_id / dbsnp_id -- no variant database cross-reference"
+    ],
+    "total_unique_designs": 140
+  },
+  "genes": [
+    {
+      "gene": "BCL2",
+      "file": "BCL2.json"
+    },
+    {
+      "gene": "BRCA1",
+      "file": "BRCA1.json"
+    },
+    {
+      "gene": "CDK4",
+      "file": "CDK4.json"
+    },
+    {
+      "gene": "EGFR",
+      "file": "EGFR.json"
+    },
+    {
+      "gene": "HER2",
+      "file": "HER2.json"
+    },
+    {
+      "gene": "KRAS",
+      "file": "KRAS.json"
+    },
+    {
+      "gene": "MYC",
+      "file": "MYC.json"
+    },
+    {
+      "gene": "PDL1",
+      "file": "PDL1.json"
+    },
+    {
+      "gene": "TERT",
+      "file": "TERT.json"
+    },
+    {
+      "gene": "TP53",
+      "file": "TP53.json"
+    }
+  ]
+}

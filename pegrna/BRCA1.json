@@ -1,0 +1,237 @@
+{
+  "header": {
+    "title": "pegRNA design table",
+    "generated_at": "2026-10-14T12:18:05Z",
+    "generated_date": "2026-10-14",
+    "model": {
+      "name": "GradientBoostingRegressor",
+      "format": "life-peg-gbr-json",
+      "format_version": 1,
+      "label": "HEKaverageedited_clamped",
+      "sha256_16": "d215f65a7727cf9f",
+      "n_trees": 200,
+      "n_features": 43,
+      "metrics": {
+        "grouped_r2": 0.6853,
+        "grouped_spearman": 0.8363,
+        "random_r2": 0.6916,
+        "random_spearman": 0.8392,
+        "leakage_gap": 0.0063,
+        "beats_mean_baseline": true
+      }
+    },
+    "training_data": {
+      "source": "PRIDICT2",
+      "cell_lines": [
+        "HEK293T",
+        "K562"
+      ],
+      "n_rows_trained": 22956
+    },
+    "caveat": "Predictions from a published model, meant to narrow what is tested at the bench. Not experimental results. The independently recomputed field reflects an evaluator run on the same machine as the miner, using the same model; cross-machine reproduction has been checked on a 200-row sample, not every row.",
+    "license": "CC BY 4.0. Cite as: LIFE Compute, pegRNA design predictions, 2026-10-14, model sha256_16 d215f65a7727cf9f.",
+    "missing_standard_fields": [
+      "hgvs_c -- no CDS-level HGVS notation is recorded",
+      "hgvs_p -- no protein-level consequence is recorded",
+      "chromosome / genome_build / genomic_coordinate -- source offsets index a RefSeqGene accession, not GRCh38; no chromosomal position is available",
+      "pam_sequence -- only the PAM offset is recorded, not the bases",
+      "nicking_sgrna -- no PE3/PE3b second-nick guide is designed",
+      "scaffold_sequence -- the pegRNA scaffold is not stored with the candidate",
+      "off_target_score -- no off-target search has been run",
+      "mmr_status -- MMR-proficiency of the intended cell line is not recorded",
+      "pbs_tm / rtt_tm -- melting temperatures are model-internal features, not emitted in the candidate rows",
+      "clinvar_id / dbsnp_id -- no variant database cross-reference"
+    ],
+    "total_unique_designs": 140
+  },
+  "gene": "BRCA1",
+  "n_designs": 15,
+  "n_hotspots": 3,
+  "hotspots": [
+    "C61G",
+    "M1775R",
+    "R1699W"
+  ],
+  "designs": [
+    {
+      "gene": "BRCA1",
+      "hotspot_label": "C61G",
+      "strand": "+",
+      "spacer": "TGAAACTTCTCAACCAGAAG",
+      "pbs": "CTTCTGGTTGAGAAG",
+      "rtt": "TACATAAAGGACGCTGTGAAGGCCCTTT",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.652689,
+      "rank_in_hotspot": 1,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "BRCA1",
+      "hotspot_label": "C61G",
+      "strand": "+",
+      "spacer": "TGAAACTTCTCAACCAGAAG",
+      "pbs": "CTTCTGGTTGAGAAG",
+      "rtt": "ACATAAAGGACGCTGTGAAGGCCCTTT",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.651181,
+      "rank_in_hotspot": 2,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "BRCA1",
+      "hotspot_label": "C61G",
+      "strand": "+",
+      "spacer": "TGAAACTTCTCAACCAGAAG",
+      "pbs": "CTTCTGGTTGAGAAG",
+      "rtt": "AAAGGACGCTGTGAAGGCCCTTT",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.648975,
+      "rank_in_hotspot": 3,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "BRCA1",
+      "hotspot_label": "C61G",
+      "strand": "+",
+      "spacer": "TGAAACTTCTCAACCAGAAG",
+      "pbs": "CTTCTGGTTGAGAAGT",
+      "rtt": "AAAGGACGCTGTGAAGGCCCTTT",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.644814,
+      "rank_in_hotspot": 4,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "BRCA1",
+      "hotspot_label": "C61G",
+      "strand": "+",
+      "spacer": "TGAAACTTCTCAACCAGAAG",
+      "pbs": "CTTCTGGTTGAGAAG",
+      "rtt": "ATAAAGGACGCTGTGAAGGCCCTTT",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.644291,
+      "rank_in_hotspot": 5,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "BRCA1",
+      "hotspot_label": "M1775R",
+      "strand": "-",
+      "spacer": "GGTTCTCCCAGGCTCTTACC",
+      "pbs": "GGTAAGAGCCTGGGAGA",
+      "rtt": "TTCACCAACGTGCCCACA",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.759864,
+      "rank_in_hotspot": 1,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "BRCA1",
+      "hotspot_label": "M1775R",
+      "strand": "-",
+      "spacer": "GGGTTCTCCCAGGCTCTTAC",
+      "pbs": "GTAAGAGCCTGGGAGAA",
+      "rtt": "TTCACCAACGTGCCCACAG",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.755734,
+      "rank_in_hotspot": 2,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "BRCA1",
+      "hotspot_label": "M1775R",
+      "strand": "-",
+      "spacer": "GGTTCTCCCAGGCTCTTACC",
+      "pbs": "GGTAAGAGCCTGGGAGA",
+      "rtt": "TCACCAACGTGCCCACA",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.755499,
+      "rank_in_hotspot": 3,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "BRCA1",
+      "hotspot_label": "M1775R",
+      "strand": "-",
+      "spacer": "GGGTTCTCCCAGGCTCTTAC",
+      "pbs": "GTAAGAGCCTGGGAGAA",
+      "rtt": "TCACCAACGTGCCCACAG",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.754834,
+      "rank_in_hotspot": 4,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "BRCA1",
+      "hotspot_label": "M1775R",
+      "strand": "-",
+      "spacer": "GGTTCTCCCAGGCTCTTACC",
+      "pbs": "GGTAAGAGCCTGGGAGA",
+      "rtt": "GCCCTTCACCAACGTGCCCACA",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.753389,
+      "rank_in_hotspot": 5,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "BRCA1",
+      "hotspot_label": "R1699W",
+      "strand": "+",
+      "spacer": "CAGATGCTGAGTTTGTGTGT",
+      "pbs": "ACACACAAACTCAGC",
+      "rtt": "TTCAGTGTCCATTC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.651974,
+      "rank_in_hotspot": 1,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "BRCA1",
+      "hotspot_label": "R1699W",
+      "strand": "+",
+      "spacer": "CAGATGCTGAGTTTGTGTGT",
+      "pbs": "ACACACAAACTCAGCAT",
+      "rtt": "TTCAGTGTCCATTC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.650691,
+      "rank_in_hotspot": 2,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "BRCA1",
+      "hotspot_label": "R1699W",
+      "strand": "+",
+      "spacer": "CAGATGCTGAGTTTGTGTGT",
+      "pbs": "ACACACAAACTCAGCAT",
+      "rtt": "ATTTCAGTGTCCATTC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.649734,
+      "rank_in_hotspot": 3,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "BRCA1",
+      "hotspot_label": "R1699W",
+      "strand": "+",
+      "spacer": "CAGATGCTGAGTTTGTGTGT",
+      "pbs": "ACACACAAACTCAGCA",
+      "rtt": "TTCAGTGTCCATTC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.648137,
+      "rank_in_hotspot": 4,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "BRCA1",
+      "hotspot_label": "R1699W",
+      "strand": "+",
+      "spacer": "CAGATGCTGAGTTTGTGTGT",
+      "pbs": "ACACACAAACTCAGCAT",
+      "rtt": "CAGTGTCCATTC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.644984,
+      "rank_in_hotspot": 5,
+      "independently_recomputed": "matched"
+    }
+  ]
+}

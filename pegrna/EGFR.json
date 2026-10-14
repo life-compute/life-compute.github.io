@@ -1,0 +1,298 @@
+{
+  "header": {
+    "title": "pegRNA design table",
+    "generated_at": "2026-10-14T12:18:05Z",
+    "generated_date": "2026-10-14",
+    "model": {
+      "name": "GradientBoostingRegressor",
+      "format": "life-peg-gbr-json",
+      "format_version": 1,
+      "label": "HEKaverageedited_clamped",
+      "sha256_16": "d215f65a7727cf9f",
+      "n_trees": 200,
+      "n_features": 43,
+      "metrics": {
+        "grouped_r2": 0.6853,
+        "grouped_spearman": 0.8363,
+        "random_r2": 0.6916,
+        "random_spearman": 0.8392,
+        "leakage_gap": 0.0063,
+        "beats_mean_baseline": true
+      }
+    },
+    "training_data": {
+      "source": "PRIDICT2",
+      "cell_lines": [
+        "HEK293T",
+        "K562"
+      ],
+      "n_rows_trained": 22956
+    },
+    "caveat": "Predictions from a published model, meant to narrow what is tested at the bench. Not experimental results. The independently recomputed field reflects an evaluator run on the same machine as the miner, using the same model; cross-machine reproduction has been checked on a 200-row sample, not every row.",
+    "license": "CC BY 4.0. Cite as: LIFE Compute, pegRNA design predictions, 2026-10-14, model sha256_16 d215f65a7727cf9f.",
+    "missing_standard_fields": [
+      "hgvs_c -- no CDS-level HGVS notation is recorded",
+      "hgvs_p -- no protein-level consequence is recorded",
+      "chromosome / genome_build / genomic_coordinate -- source offsets index a RefSeqGene accession, not GRCh38; no chromosomal position is available",
+      "pam_sequence -- only the PAM offset is recorded, not the bases",
+      "nicking_sgrna -- no PE3/PE3b second-nick guide is designed",
+      "scaffold_sequence -- the pegRNA scaffold is not stored with the candidate",
+      "off_target_score -- no off-target search has been run",
+      "mmr_status -- MMR-proficiency of the intended cell line is not recorded",
+      "pbs_tm / rtt_tm -- melting temperatures are model-internal features, not emitted in the candidate rows",
+      "clinvar_id / dbsnp_id -- no variant database cross-reference"
+    ],
+    "total_unique_designs": 140
+  },
+  "gene": "EGFR",
+  "n_designs": 20,
+  "n_hotspots": 4,
+  "hotspots": [
+    "G719S",
+    "L858R",
+    "L861Q",
+    "T790M"
+  ],
+  "designs": [
+    {
+      "gene": "EGFR",
+      "hotspot_label": "G719S",
+      "strand": "-",
+      "spacer": "CTTATACACCGTGCCGAACG",
+      "pbs": "CGTTCGGCACGGTGTAT",
+      "rtt": "TGCTGAGCTCCGGTG",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.623022,
+      "rank_in_hotspot": 1,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "G719S",
+      "strand": "-",
+      "spacer": "CTTATACACCGTGCCGAACG",
+      "pbs": "CGTTCGGCACGGTG",
+      "rtt": "TGCTGAGCTCCGGTG",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.612772,
+      "rank_in_hotspot": 2,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "G719S",
+      "strand": "-",
+      "spacer": "CTTATACACCGTGCCGAACG",
+      "pbs": "CGTTCGGCACG",
+      "rtt": "TGCTGAGCTCCGGTG",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.61065,
+      "rank_in_hotspot": 3,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "G719S",
+      "strand": "-",
+      "spacer": "CTTATACACCGTGCCGAACG",
+      "pbs": "CGTTCGGCACGGT",
+      "rtt": "TGCTGAGCTCCGGTG",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.608908,
+      "rank_in_hotspot": 4,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "G719S",
+      "strand": "-",
+      "spacer": "CTTATACACCGTGCCGAACG",
+      "pbs": "CGTTCGGCACGG",
+      "rtt": "TGCTGAGCTCCGGTG",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.599715,
+      "rank_in_hotspot": 5,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "L858R",
+      "strand": "+",
+      "spacer": "AGCATGTCAAGATCACAGAT",
+      "pbs": "ATCTGTGATCTTGACAT",
+      "rtt": "GCAGTTTGGCCAACCCAAA",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.740181,
+      "rank_in_hotspot": 1,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "L858R",
+      "strand": "+",
+      "spacer": "AGCATGTCAAGATCACAGAT",
+      "pbs": "ATCTGTGATCTTGACAT",
+      "rtt": "AGCAGTTTGGCCAACCCAAA",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.740181,
+      "rank_in_hotspot": 2,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "L858R",
+      "strand": "+",
+      "spacer": "AGCATGTCAAGATCACAGAT",
+      "pbs": "ATCTGTGATCTTGACAT",
+      "rtt": "AGTTTGGCCAACCCAAA",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.733712,
+      "rank_in_hotspot": 3,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "L858R",
+      "strand": "+",
+      "spacer": "AGCATGTCAAGATCACAGAT",
+      "pbs": "ATCTGTGATCTTGACAT",
+      "rtt": "GTTTGGCCAACCCAAA",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.725156,
+      "rank_in_hotspot": 4,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "L858R",
+      "strand": "+",
+      "spacer": "AGCATGTCAAGATCACAGAT",
+      "pbs": "ATCTGTGATCTTGACAT",
+      "rtt": "TTGGCCAACCCAAA",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.721013,
+      "rank_in_hotspot": 5,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "L861Q",
+      "strand": "+",
+      "spacer": "AGCATGTCAAGATCACAGAT",
+      "pbs": "ATCTGTGATCTTGACAT",
+      "rtt": "TTTCTCTTCCGCACCCAGCAATTTGGCCAGCCCAAA",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.68629,
+      "rank_in_hotspot": 1,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "L861Q",
+      "strand": "+",
+      "spacer": "AGCATGTCAAGATCACAGAT",
+      "pbs": "ATCTGTGATCTTGACAT",
+      "rtt": "GCACCCAGCAATTTGGCCAGCCCAAA",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.683708,
+      "rank_in_hotspot": 2,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "L861Q",
+      "strand": "-",
+      "spacer": "TCCTTACTTTGCCTCCTTCT",
+      "pbs": "AGAAGGAGGCAAA",
+      "rtt": "TTGGGCTGGCCAAATTGCTGGGTGCGGAAGAGAAAGAATACCATGC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.672408,
+      "rank_in_hotspot": 3,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "L861Q",
+      "strand": "-",
+      "spacer": "TCCTTACTTTGCCTCCTTCT",
+      "pbs": "AGAAGGAGGCAAA",
+      "rtt": "TTTGGGCTGGCCAAATTGCTGGGTGCGGAAGAGAAAGAATACCATGC",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.671783,
+      "rank_in_hotspot": 4,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "L861Q",
+      "strand": "+",
+      "spacer": "AGCATGTCAAGATCACAGAT",
+      "pbs": "ATCTGTGATCTTGACAT",
+      "rtt": "TCCGCACCCAGCAATTTGGCCAGCCCAAA",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.668909,
+      "rank_in_hotspot": 5,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "T790M",
+      "strand": "-",
+      "spacer": "GACATAGTCCAGGAGGCAGC",
+      "pbs": "GCTGCCTCCTGGACTAT",
+      "rtt": "ACCTCCACCGTGCAGCTCATCGCGCAGCTCATGCCCTTCG",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.68407,
+      "rank_in_hotspot": 1,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "T790M",
+      "strand": "-",
+      "spacer": "GACATAGTCCAGGAGGCAGC",
+      "pbs": "GCTGCCTCCTGGACTAT",
+      "rtt": "TCACCTCCACCGTGCAGCTCATCGCGCAGCTCATGCCCTTCG",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.68337,
+      "rank_in_hotspot": 2,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "T790M",
+      "strand": "-",
+      "spacer": "GACATAGTCCAGGAGGCAGC",
+      "pbs": "GCTGCCTCCTGGACTAT",
+      "rtt": "TGCCTCACCTCCACCGTGCAGCTCATCGCGCAGCTCATGCCCTTCG",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.680138,
+      "rank_in_hotspot": 3,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "T790M",
+      "strand": "-",
+      "spacer": "GACATAGTCCAGGAGGCAGC",
+      "pbs": "GCTGCCTCCTGGACTAT",
+      "rtt": "TCCACCGTGCAGCTCATCGCGCAGCTCATGCCCTTCG",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.678152,
+      "rank_in_hotspot": 4,
+      "independently_recomputed": "matched"
+    },
+    {
+      "gene": "EGFR",
+      "hotspot_label": "T790M",
+      "strand": "-",
+      "spacer": "GACATAGTCCAGGAGGCAGC",
+      "pbs": "GCTGCCTCCTGGACTAT",
+      "rtt": "GCAGCTCATCGCGCAGCTCATGCCCTTCG",
+      "edit_type": "substitution",
+      "predicted_efficiency": 0.677516,
+      "rank_in_hotspot": 5,
+      "independently_recomputed": "matched"
+    }
+  ]
+}
