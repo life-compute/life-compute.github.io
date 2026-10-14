@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #988",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for C-C motif chemokine 2 / MCP-1 (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 36th validated binder for CCL2_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-10-14.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "CCL2_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "C-C motif chemokine 2 / MCP-1 (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "P13500"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "COc1cc2c(cc1CN1C[C@@H]3CCN[C@@H]3C1)OCO2"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-7.7417"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "36"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "988"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "TGm6E9JddvLMcWB7HtA8VM5yXoGT5Yt6GES2vWkmebsBjkdTrVrtKoQyhCRSVZCQXpN9bA9dq893tsWgmN5FNP9"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-10-14T12:58:11.274286+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
