@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #999",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Transforming growth factor beta-1 (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 42nd validated binder for TGFb1_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-10-15.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "TGFb1_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Transforming growth factor beta-1 (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "P01137"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "O=C(Cc1nnc(S)nc1O)c1cccs1"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.4263"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "42"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "999"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "47gB5Nb7CLYEP3yd1ZnkGKUe79xkndgTqUUpXnh5FytV7H8kuQvwV5215YwBnBwdtVNTJfku2EuMT37UNdMEiFpp"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-10-15T01:35:10.592974+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
