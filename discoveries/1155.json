@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #1155",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Epidermal growth factor receptor (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 27th validated binder for EGFR_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-10-19.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "EGFR_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Epidermal growth factor receptor (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "P00533"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "Cc1ccc(C(=O)Nc2ccc(O)cc2C(=O)O)cc1C"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.5191"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "27"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "1155"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "5WhgXEnv3bpYRpXMFweW2UzTygYm5M7ert33qy3mRFp4qSzF7JJZR5LYgtFCdPGqnTnaWbPnxFVkXmDGf2PQxqQD"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-10-19T02:35:09.848350+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
