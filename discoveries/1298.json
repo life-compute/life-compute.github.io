@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #1298",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Pyruvate kinase PKM, isoform M2 (mRNA target) discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 50th validated binder for PKM2_mRNA identified by the LIFE decentralized drug-discovery network. Discovered 2026-10-22.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "PKM2_mRNA"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Pyruvate kinase PKM, isoform M2 (mRNA target)"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "P14618"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "O=C(Nc1ccccc1N1CCOCC1)[C@@H]1CCCO1"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-8.0834"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "50"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "1298"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "5urXopjJ5gqhhXBE9bfZJZz5GYiEie84MQZ5dGyVQ8PK4nWXhLB18CMinoSCzLaxyw3MrPurtGEbiq8KKdM6xcCw"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-10-22T02:00:50.777980+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
