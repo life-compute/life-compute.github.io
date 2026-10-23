@@ -1,0 +1,70 @@
+{
+  "name": "LIFE Discovery #1401",
+  "symbol": "LIFE-DSC",
+  "description": "First confirmed computational hit for Phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN discovered by LIFE Compute miner 4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8. This molecule is the 1st validated binder for PTEN identified by the LIFE decentralized drug-discovery network. Discovered 2026-10-23.",
+  "image": "https://lifecompute.ai/assets/life-coin-256.png",
+  "external_url": "https://lifecompute.ai/discoveries.html",
+  "attributes": [
+    {
+      "trait_type": "modality",
+      "value": "small molecule"
+    },
+    {
+      "trait_type": "target_id",
+      "value": "PTEN"
+    },
+    {
+      "trait_type": "target_name",
+      "value": "Phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN"
+    },
+    {
+      "trait_type": "uniprot_id",
+      "value": "P60484"
+    },
+    {
+      "trait_type": "smiles",
+      "value": "Nc1cccc2c1CN(c1cc3cc(-c4cc5cc(N6Cc7c(N)cccc7CC6=O)ncc5[nH]4)[nH]c3cn1)C(=O)C2"
+    },
+    {
+      "trait_type": "affinity_kcal_mol",
+      "value": "-10.027"
+    },
+    {
+      "trait_type": "discovery_rank",
+      "value": "1"
+    },
+    {
+      "trait_type": "discovery_number",
+      "value": "1401"
+    },
+    {
+      "trait_type": "miner_wallet",
+      "value": "4zn1WQZy48ysUeSo2WCFwF9LmoPhZedZq7iKLcAH3pc8"
+    },
+    {
+      "trait_type": "validator_tx",
+      "value": "4ckaomApAwBG5ZwhQtoDneDf19keLV5iRjFYPdQWLREetp8jK9dGKy1qhrPFmWsRtakTnYJsVnYxsZ9Nr6DHnvZE"
+    },
+    {
+      "trait_type": "timestamp",
+      "value": "2026-10-23T23:09:01.649676+00:00"
+    },
+    {
+      "trait_type": "source",
+      "value": "LIFE Compute / Boltz2"
+    },
+    {
+      "trait_type": "proceeds",
+      "value": "100% to LIFE Foundation"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "creators": [
+      {
+        "address": "2jVdMx7fb88txbG6YoZzC7kT4Tq8rJDaWrNgbZ3ZnqCb",
+        "share": 100
+      }
+    ]
+  }
+}
